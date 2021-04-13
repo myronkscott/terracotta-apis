@@ -178,6 +178,18 @@ public interface Server {
    */
   ServerJMX getManagement();
   /**
+   *
+   * @return the version number of the product
+   */
+  String getVersion();
+  /**
+   *
+   * @return the build information about the product
+   */
+  String getBuildInfo();
+
+
+  /**
    * The client connection properties for this context
    *
    * @return
